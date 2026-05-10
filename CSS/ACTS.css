@@ -1,0 +1,48 @@
+body {
+    
+    margin: auto;
+    display: block;
+}
+
+section {
+    height: 300vh;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.act1 {
+    background-image: url(../PHOTOS/act1bg.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.act2 {
+    background-image: url(../PHOTOS/act2img.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.TITLE {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+
+.content {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
